@@ -1,0 +1,87 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #0077c0;
+	color: #fff;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	
+	box-shadow: 2px 2px 5px #ccc;
+	
+	
+}
+header h1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 10;
+
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header pre{
+	font-size: 21px;
+	display: flexbox;	
+	padding: 20px;
+	margin: 10;
+	font-family:'Courier New', Courier, monospace;
+}
+.banner {
+	background-image: url('japan-banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+.banner img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.destinations {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px 0;
+}
+.destinations h2 {
+	font-size: 32px;
+	margin: 0 0 20px 0;
+	text-align: center;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px #ccc;
+	
+	padding: 20px;
+	
+}
+.destination {
+	background-color: #fff;
+	box-shadow: 2px 2px 5px #ccc;
+	margin: 20px;
+	padding: 20px;
+	width: 300px;
+}
+.destination img {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+}
+.destination h3 {
+	font-size: 24px;
+	margin: 10px 0 0 0;
+}
+footer {
+	background-color: #0077c0;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+footer p {
+	margin: 0;
+}
